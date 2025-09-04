@@ -12,13 +12,6 @@
     "NOTIFY_EMAIL": "",
     "SMTP_FROM": "",
     "SMTP_TO": ""
-  },
-  "functions": {
-    "api/**/*": {
-      "runtime": "nodejs20.x",
-      "memory": 1024,
-      "maxDuration": 60
-    }
   }
 }
 
