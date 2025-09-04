@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "env": {
+    "SMTP_HOST": "",
+    "SMTP_PORT": "",
+    "SMTP_SECURE": "",
+    "SMTP_REQUIRE_TLS": "",
+    "SMTP_USER": "",
+    "SMTP_PASS": "",
+    "NOTIFY_EMAIL": "",
+    "SMTP_FROM": "",
+    "SMTP_TO": ""
+  },
+  "functions": {
+    "api/**/*": {
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
+
+
